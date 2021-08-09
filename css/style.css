@@ -1,0 +1,42 @@
+/*HEADER*/
+.logo{
+    width: 200px;
+    margin-right: 5rem;
+}
+.logo img{
+    width: 100%;
+}
+.form-inline search input{
+    border-radius: 20%;
+}
+
+/*CART*/
+.thanhtoan .price{
+    background: rgba(180, 180, 180, 0.192);
+    border-radius: 9px;
+    padding: 1rem;    
+}
+
+
+/*footer*/
+.lienhe{
+    font-size: 22px;
+}
+#phone{
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
+}
+.info-col a i{
+    color: red;
+}
+.thongtin{
+    margin-top: 10px;
+}
+.info-social i{
+    font-size: 26px;
+    margin-top: 10px;
+}
+.info-col {
+    text-align: center;
+}

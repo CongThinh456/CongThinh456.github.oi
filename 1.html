@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="quantity" name="quantity">
+</body>
+<script>
+    var productsanpham1 =[
+        {field:'name',value:'congthinh'},
+        {field:'name',value:2},
+        {field:'name',value:4}
+    ]
+    var productsanpham =[
+        {field:'name',value:'thinh'},
+        {field:'name',value:2},
+        {field:'name',value:3}
+    ]
+    for(var i in productsanpham){
+        var aa={count:productsanpham[i].value};
+        //output[productsanpham[i].field]=productsanpham[i].value
+        productsanpham1.push(aa)
+        //console.log(aa)        
+    };
+        //console.log(productsanpham1)
+   function shop(){
+       function tang(id){
+           return id
+       }
+       tang(123)
+   }
+   shop()
+  var b=shop()
+  console.log(b)
+</script>
+</html>
